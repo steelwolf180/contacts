@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "external-editor": "^2.0.4",
+    "fast-deep-equal": "^1.0.0",
+    "is-promise": "^2.1.0",
+    "mimic-fn": "^1.1.0",
+    "p-map": "^1.1.1",
+    "package.json": "^2.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.8"
+    "react-scripts": "^1.0.8",
+    "rx-lite-aggregates": "^4.0.8"
   },
   "scripts": {
     "start": "react-scripts start",
