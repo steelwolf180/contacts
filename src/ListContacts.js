@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 
 function ListContacts (props){
   return(
-      
       <ol className='contact-list'>
         {props.contacts.map((contact) => (
           <li key={contact.id} className='contact-list-item'>
@@ -21,5 +21,10 @@ function ListContacts (props){
       </ol>
     )
 }
+
+ListContacts.propTypes = {
+  contacts: PropTypes.array.isRequired,
+  onDeleteContact: PropTypes.func.isRequired
+} 
 
 export default ListContacts
